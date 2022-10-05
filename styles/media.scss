@@ -1,0 +1,88 @@
+@media screen and (max-width:500px) {
+    body{
+        // background:red;
+    }
+
+.home .inhome p {
+    width: 90%;
+}
+
+.about{
+    // background-color: red;
+    padding: 20px;
+    height: auto;
+    .container{
+        // background-color: blue;
+        .row{
+            .abouttxt{
+                // background-color: greenyellow;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                // padding: 20px;
+
+                h2{
+                    border: none;
+                    // width: 100%;
+                }
+                p{
+                    // width: 0;
+                    padding: 20px;
+                }
+            }
+        }
+    }
+}
+.tokenomics{
+    // background-color: red;
+
+    .container{
+        .row{
+            // background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div{
+                margin-top: 20px;
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+footer{
+    .container{
+        .row{
+            .footertxt{
+                display: none;
+            }
+        }
+    }
+}
+}
+
+
+@media screen and (max-width:1000px){
+    .home .inhome p {
+            width: 90%;
+        }
+
+                .tokenomics {
+                    // background-color: red;
+        
+                    .container {
+                        .row {
+                            // background-color: blue;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+        
+                            div {
+                                margin-top: 20px;
+                                margin-left: 0;
+                            }
+                        }
+                    }
+                }
+}

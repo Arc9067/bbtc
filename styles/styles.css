@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button, a, li, a:hover {
+  text-decoration: none;
+  color: #000;
+  list-style: none;
+  outline: none;
+  border: none;
+}
+
+body {
+  background: url(../imgs/homebg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+header {
+  background-color: #194019;
+  position: fixed;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  top: 0;
+}
+header nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+header nav .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .row .navbrand {
+  display: flex;
+  align-items: center;
+}
+header nav .row .navbrand a {
+  line-height: 60px;
+  color: #fff;
+}
+header nav .row .navbrand a h3 {
+  font-size: 1em;
+}
+header nav .row .navlinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav .row .navlinks ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .row .navlinks ul li {
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+}
+header nav .row .navlinks ul li a {
+  color: #fff;
+  font-size: 0.8em;
+}
+header nav .row .navlinks ul .active {
+  border-bottom: 2px solid #fff;
+}
+
+.home {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.home .inhome {
+  height: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.home .inhome p {
+  width: 40%;
+  text-align: center;
+  color: #fff;
+}
+.home .inhome .homeicn {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home .inhome .homeicn a i {
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px;
+}
+.home .inhome .homeicn a i:hover {
+  border-radius: 15px;
+  background-color: #194019;
+}
+
+.about {
+  height: auto;
+  width: 100%;
+  background-color: #000;
+  overflow: hidden;
+}
+.about .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .container .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .container .row .abouttxt h2 {
+  font-size: 2em;
+  text-indent: 0;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.about .container .row .abouttxt p {
+  width: 80%;
+  color: lightgray;
+  padding-top: 20px;
+}
+.about .container .row .abouttxt .aboutbtns {
+  height: 50px;
+  width: auto;
+  display: flex;
+  margin-top: 50px;
+}
+.about .container .row .abouttxt .aboutbtns a {
+  background-color: #194019;
+  color: #fff;
+}
+.about .container .row .abouttxt .aboutbtns a i {
+  padding-right: 10px;
+}
+.about .container .row .abouttxt .aboutbtns a:nth-child(2) {
+  margin-left: 10px;
+}
+.about .container .row .abouttxt .aboutbtns a:hover {
+  background-color: #000;
+  border: 2px solid #194019;
+}
+
+.tokenomics {
+  height: auto;
+  padding: 30px;
+  width: 100%;
+  background-color: #194019;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.tokenomics .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tokenomics .container .row {
+  display: flex;
+  justify-content: space-between;
+}
+.tokenomics .container .row div {
+  background-color: #000;
+  margin-left: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.tokenomics .container .row div ul {
+  padding: 10px;
+}
+.tokenomics .container .row div ul h3 {
+  color: #fff;
+}
+.tokenomics .container .row div ul p {
+  color: lightgray;
+}
+
+footer {
+  height: 50vh;
+  width: 100%;
+  background: url(../imgs/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+footer .container .row .footerlinks {
+  padding: 0;
+  color: #fff;
+}
+footer .container .row .footerlinks ul {
+  padding: 0;
+  color: #fff;
+}
+footer .container .row .footerlinks ul li {
+  color: lightgoldenrodyellow;
+}
+footer .container .row .footertxt {
+  color: #fff;
+}
+footer .container .row .footertxt h3 span {
+  color: #194019;
+}/*# sourceMappingURL=styles.css.map */

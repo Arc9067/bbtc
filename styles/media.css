@@ -1,0 +1,47 @@
+@media screen and (max-width: 500px) {
+  .home .inhome p {
+    width: 90%;
+  }
+  .about {
+    padding: 20px;
+    height: auto;
+  }
+  .about .container .row .abouttxt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about .container .row .abouttxt h2 {
+    border: none;
+  }
+  .about .container .row .abouttxt p {
+    padding: 20px;
+  }
+  .tokenomics .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tokenomics .container .row div {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  footer .container .row .footertxt {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .home .inhome p {
+    width: 90%;
+  }
+  .tokenomics .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tokenomics .container .row div {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}/*# sourceMappingURL=media.css.map */
