@@ -6,29 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Baby Tech Tress</title>
     <link rel="icon" href="./imgs/babyttc2.png">
+    <script src="./jquery.js"></script>
+
     <script src="https://kit.fontawesome.com/22d9f2c7a2.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/media.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
+
 <body>
+
+    <div id="loading" class="loader">
+        <div class="loader-con">
+            <div class="spinner-grow"></div>
+        </div>
+    </div>
+
 
     <header class="container-fluid">
         <nav class="container">
             <div class="row">
                 <div class="col-lg-3 navbrand">
                     <a href="">
-                        <h3>BABY <span>TECHTREES</span></h3>
+                        <img src="./imgs/head logo.png" height="40px" alt="">
                     </a>
                 </div>
-                <div class="col-lg-7 col-sm-12 navlinks">
+                <div class="col-lg-5 col-sm-12 navlinks">
                     <ul>
-                        <li class="active"><a href="">Home</a></li>
+                        <li class="active"><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
-                        <li><a href="">Tokenomics</a></li>
-                        <li><a href="">Buy</a></li>
+                        <li><a href="#tokenomics">Tokenomics</a></li>
+                        <li><a href="https://poocoin.app/tokens/0x04827a47941d81667cc74735b12369ab468fd72a">Buy</a></li>
                     </ul>
                 </div>
 
@@ -37,67 +50,66 @@
         </nav>
     </header>
 
-    <section class="home">
+    <section id="home" class="home">
         <section class="inhome">
             <img src="./imgs/babyttc2.png" height="300px" alt="">
-            <p>This Baby token with rewards in main has been launched by a group of whales that have been holding TTC since first days.</p>
+            <p data-aos="fade-left" data-aos-duration="3000">This Baby token with rewards in main has been launched by a group of whales that have been holding TTC since first days.</p>
         
-            <div class="homeicn">
-                <a href=""><i class="fa-brands fa-telegram"></i></a>
-                <a href=""><i class="fa-solid fa-poo"></i></a>
+            <div  class="homeicn">
+                <a target="_blank" href="https://t.me/BabyTechTress"><i class="fa-brands fa-telegram"></i></a>
+                <a target="_blank" href="https://poocoin.app/tokens/0x04827a47941d81667cc74735b12369ab468fd72a"><i class="fa-solid fa-poo"></i></a>
                 <!-- <a href=""><i class="fa-solid fa-pancakes"></i></a> -->
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <!-- <a href=""><i class="fa-brands fa-twitter"></i></a> -->
             </div>
         </section>
 
         
     </section>
 
-        <section class="about container-fluid">
+        <section id="about" class="about container-fluid">
             <section class="container">
                 <div class="row">
                     <div class="col-lg-7 col-sm-10 abouttxt">
                         <h2>About Us</h2>
                         <p>
-                            This Baby token with rewards in main has been launched by a group of whales that have been holding TTC since first days.
+                            This hello enn token with rewards in main has been launched by a group of whales that have been holding TTC since first days.
                             We met ton of people there and we'll be bringing them here too, anyways, team is already connected with their communtiy
                             & team so I expect HUGE things to come here!
                             
-                            You will see few big $TTC holders buying here & team members. We already had a $40K holder buying & a core team member
-                            just joined our chat too. More coming!
+                            You will see few big $TTC holders buying here & team members.
                         </p>
                         <div class="aboutbtns">
-                            <a href="" class="btn btn-lg" role="button">BUY ON PCS</a>
-                            <a href="" class="btn btn-lg" role="button"><i class="fa-solid fa-poo"></i> CHART</a>
+                            <a href="" class="btn btn-lg" role="button">BUY</a>
+                            <a href="" class="btn btn-lg" role="button"> CHART</a>
 
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-10">
-                        <img src="./imgs/babyttc2.png" height="500px" alt="">
+                        <img src="./imgs/hello ennicon.png" height="400px" alt="">
                     </div>
                 </div>
             </section>
         
         </section>
 
-        <section class="tokenomics container-fluid">
+        <section id="tokenomics" class="tokenomics container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-sm-10">
+                    <div class="col-lg-3 col-sm-10 tkcard  data-aos="fade-left" data-aos-duration="3000"">
                         <ul>
                             <h3>3% Reward</h3>
                             <p>For every transaction, 3% of the transaction value is been converted to Tech Trees and distributed to existing holders.
                             This means that just by holding BTTC, you will continue to earn $TTC.</p>
                         </ul>
                     </div>
-                    <div class="col-lg-3 col-sm-10">
+                    <div class="col-lg-3 col-sm-10 tkcard  data-aos="fade-top" data-aos-duration="3000"">
                         <ul>
                             <h3>5% MARKTING</h3>
                             <p>5% of every transaction is contributed to the marketing wallet to be used solely for the growth of the $BTTC project and
                             community.</p>
                         </ul>
                     </div>
-                    <div class="col-lg-3 col-sm-10">
+                    <div class="col-lg-3 col-sm-10 tkcard  data-aos="fade-right" data-aos-duration="3000"">
                         <ul>
                             <h3>2% LIQUIDITY</h3>
                             <p>2% of every transaction is contributed to the Pancakeswap Lp to help in stabilizing the Lqiuidity</p>
@@ -113,24 +125,33 @@
                     <div class="col-lg-7 footerlinks">
                         <h3>Links</h3>
                         <ul>
-                            <li>> Buy</li>
-                            <li>> Contract</li>
-                            <li>> Dextools</li>
-                            <li>> Twitter</li>
-                            <li>> Poocoin</li>
-                            <li>> Telegran</li>
+                            <li><a target="_blank" href="https://poocoin.app/tokens/0x04827a47941d81667cc74735b12369ab468fd72a">> Buy</a></li>
+                            <li><a target="_blank" href="https://bscscan.com/token/0x04827a47941d81667cc74735b12369ab468fd72a">> Contract</a></li>
+                            <!-- <li><a target="_blank" href="">> Twitter</a></li> -->
+                            <li><a target="_blank" href="https://poocoin.app/tokens/0x04827a47941d81667cc74735b12369ab468fd72a">> Poocoin</a></li>
+                            <li><a target="_blank" href="https://t.me/BabyTechTress">> Telegram</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 footertxt">
-                        <h3>BABY <span>TECH TREES</span></h3>
+                        <img src="./imgs/head logo.png" height="50px" alt="">
                     </div>
                 </div>
             </div>
         </footer>
 
+            <script>
+        $(window).on("load", function () {
+            $(".loader").fadeOut(6000)
+        })
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>
