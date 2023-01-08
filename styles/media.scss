@@ -1,6 +1,7 @@
 @media screen and (max-width:500px) {
+
     body{
-        // background:red;
+        background-position: bottom;
     }
 
 .home .inhome p {
@@ -36,6 +37,7 @@
 }
 .tokenomics{
     // background-color: red;
+    background-color: transparent;
 
     .container{
         .row{
@@ -85,4 +87,34 @@ footer{
                         }
                     }
                 }
+    .about{
+        .container{
+            .row{
+                .abouttxt{
+                    padding-bottom: 20px;
+                    p{
+                        width: 100%;
+                    }
+                }
+            // .aboutbtns{
+            //     display: flex;
+            //     flex-direction: column;
+            // }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    header{
+        nav{
+            div{
+                a{
+                    img{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
 }

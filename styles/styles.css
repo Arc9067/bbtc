@@ -5,6 +5,32 @@
   box-sizing: border-box;
 }
 
+.loader {
+  height: 100vh;
+  width: 100%;
+  background: #194019 no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 100000;
+  top: 0;
+}
+.loader .loader-con {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-top-color: transparent;
+  border-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader .loader-con diV {
+  background-color: #fff;
+}
+
 button, a, li, a:hover {
   text-decoration: none;
   color: #000;
@@ -14,7 +40,7 @@ button, a, li, a:hover {
 }
 
 body {
-  background: url(../imgs/homebg.jpg);
+  background: linear-gradient(rgba(25, 64, 25, 0.5), rgba(0, 0, 0, 0.9)), url(../imgs/homebg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
@@ -33,6 +59,7 @@ header {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow: hidden;
   top: 0;
+  z-index: 1000;
 }
 header nav {
   height: 60px;
@@ -225,7 +252,7 @@ footer .container .row .footerlinks ul {
   padding: 0;
   color: #fff;
 }
-footer .container .row .footerlinks ul li {
+footer .container .row .footerlinks ul li a {
   color: lightgoldenrodyellow;
 }
 footer .container .row .footertxt {

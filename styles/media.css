@@ -1,4 +1,7 @@
 @media screen and (max-width: 500px) {
+  body {
+    background-position: bottom;
+  }
   .home .inhome p {
     width: 90%;
   }
@@ -17,6 +20,9 @@
   }
   .about .container .row .abouttxt p {
     padding: 20px;
+  }
+  .tokenomics {
+    background-color: transparent;
   }
   .tokenomics .container .row {
     display: flex;
@@ -43,5 +49,16 @@
   .tokenomics .container .row div {
     margin-top: 20px;
     margin-left: 0;
+  }
+  .about .container .row .abouttxt {
+    padding-bottom: 20px;
+  }
+  .about .container .row .abouttxt p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  header nav div a img {
+    display: none;
   }
 }/*# sourceMappingURL=media.css.map */
