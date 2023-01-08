@@ -18,6 +18,8 @@ This is a readme file for Baby Tech Trees
 
 * `JAVASCRIPT` for adding addiional functions to the webisite & Animating using **Scroll Reveal**
 
+* `JQUERY`
+
 ## Website Preview
 
 #### Desktop Preview
